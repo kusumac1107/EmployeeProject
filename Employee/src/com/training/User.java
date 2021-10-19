@@ -1,5 +1,10 @@
 package com.training;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Scanner;
+
 public class User {
 private  int id;
 private  String name;
@@ -36,4 +41,6 @@ public String getEmail() {
 public void setEmail(String email) {
 	this.email = email;
 }
+
+
 }
